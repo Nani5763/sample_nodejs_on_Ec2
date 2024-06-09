@@ -1,4 +1,4 @@
-# sample_nodejs_on_Ec2# Node Hello World
+# Node Hello World
 
 Simple node.js app that servers "A Monk in Cloud"
 
