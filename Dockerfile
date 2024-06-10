@@ -1,12 +1,14 @@
 FROM node:16
 
-WORKDIR /root/sample_nodejs_on_Ec2
+WORKDIR /app
 
 COPY package*.json ./
 
 RUN npm install
 
 COPY . .
+
+RUN npm run install
 
 EXPOSE 3000
 
